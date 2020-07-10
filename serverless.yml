@@ -48,9 +48,9 @@ functions:
         - 'helpers/**'
         - 'marketplaces.js'
     environment:
-      ACCESS_KEY: ${env:ACCESS_KEY}
-      SELLER_ID: ${env:SELLER_ID}
-      MWS_AUTH_TOKEN: ${env:MWS_AUTH_TOKEN}
+      MWS_KEY_ID: ${env:MWS_KEY_ID}
+      MWS_KEY_SECRET: ${env:MWS_KEY_SECRET}
+      AMZ_EU_SELLER_ID: ${env:AMZ_EU_SELLER_ID}
     events:
       - http:
           method: get

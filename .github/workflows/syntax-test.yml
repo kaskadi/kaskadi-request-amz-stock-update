@@ -25,6 +25,6 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_KEY_SECRET }}
-        ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
-        SELLER_ID: ${{ secrets.SELLER_ID }}
-        MWS_AUTH_TOKEN: ${{ secrets.MWS_AUTH_TOKEN }}
+        MWS_KEY_ID: ${{ secrets.MWS_KEY_ID }}
+        MWS_KEY_SECRET: ${{ secrets.MWS_KEY_SECRET }}
+        AMZ_EU_SELLER_ID: ${{ secrets.AMZ_EU_SELLER_ID }}
